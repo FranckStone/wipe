@@ -1,6 +1,7 @@
 <div align="center">
   <img src="Resources/AppIcon.png" width="128" height="128" alt="Wipe 应用图标">
   <h1>Wipe</h1>
+  <p><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
   <p><strong>锁住输入，放心擦键盘和屏幕。</strong></p>
   <p>一个为 Mac 日常清洁准备的原生菜单栏小工具。</p>
   <p>
@@ -23,6 +24,21 @@
 擦键盘时，不想把一串乱码敲进正在编辑的文档；擦屏幕时，也不想误点窗口或触发触控板手势。打开 Wipe，选择清洁模式，结束后长按解锁，就能继续工作。
 
 Wipe 使用 **SwiftUI + AppKit** 编写，没有第三方包依赖，无需账号，所有输入处理都在本机完成。
+
+## 界面预览
+
+<table>
+  <tr>
+    <th>主窗口</th>
+    <th>键盘清洁模式</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/main-window.jpg" width="460" alt="Wipe 实际主窗口，包含清洁键盘和清洁屏幕两个模式入口"></td>
+    <td valign="top"><img src="docs/screenshots/keyboard-cleaning.jpg" width="420" alt="Wipe 实际键盘清洁面板，显示拦截次数与长按解锁按钮"></td>
+  </tr>
+</table>
+
+以上为 macOS 上实际运行的应用截图，界面当前使用中文。
 
 ## 两种模式，按需选择
 
